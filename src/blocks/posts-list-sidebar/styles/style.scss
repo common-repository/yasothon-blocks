@@ -1,0 +1,88 @@
+.yasothon-gutenberg-posts {
+
+  .posts-list {
+
+    margin-bottom: 40px;
+
+    figure {
+      margin: 0;
+    }
+
+    article {
+      margin-bottom: 20px;
+    }
+
+    article:last-child {
+      margin-bottom: 0;
+    }
+
+    .post-title-sidebar {
+      margin-bottom: 20px;
+      font-size: 13px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: #555;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+    }
+
+    article.has-thumbnail {
+      display: grid;
+      grid-column-gap: 20px;
+      -ms-grid-columns: 90px 1fr;
+      grid-template-columns: 90px 1fr;
+    }
+    
+    article.no-thumbnail {
+      display: grid;
+      grid-column-gap: 0;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+    }
+    
+    .post-thumbnail-image {
+      width: 90px;
+      height: 90px;
+      background-position: center;
+      background-size: cover;
+      box-shadow: 5px 10px 30px 0 rgba(0, 0, 0, 0.10);
+    }
+    
+    .entry-content {
+      padding: 0;
+    }
+    
+    .entry-content .entry-title {
+      margin-top: 0;
+      margin-bottom: 2px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .entry-content .entry-title a {
+      color: black;
+      text-decoration: none;
+    }
+    
+    .entry-content .entry-title a:hover {
+      color: #555555;
+    }
+    
+    .entry-meta {
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      color: #999999;
+    }
+    
+    .entry-meta a {
+      color: #999999;
+      text-decoration: none;
+    }
+    
+    .entry-meta .posted-on::after {
+      content: "";
+    }
+
+  }
+}

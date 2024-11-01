@@ -1,0 +1,656 @@
+.yasothon-gutenberg-posts {
+
+    .content-post {
+
+        &.layout.full.style-2 {
+
+            article {
+                margin-bottom: 50px;
+            }
+
+            article:last-child {
+                margin-bottom: 0;
+            }
+
+            .has-post-thumbnail {
+                position: relative;
+                height: 450px;
+                background-position: center;
+                background-size: cover;
+
+                .entry-header {
+                    width: 90%;
+                    height: 500px;
+                }
+
+                .entry-content {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    margin-left: 150px;
+                    padding: 30px;
+                    background-color: white;
+                    box-shadow: 5px 10px 30px 0 rgba(0, 0, 0, 0.10);
+
+                }
+            }
+
+            .has-no-thumbnail {
+                margin-bottom: 50px;
+                height: auto;
+                padding: 40px;
+                background-color: white;
+                box-shadow: 5px 10px 30px 0 rgba(0, 0, 0, 0.10);
+
+                .entry-header {
+                    display: none;
+                }
+
+                p {
+                    margin-bottom: 0;
+                }
+            }
+
+            .post-thumbnail {
+                position: relative;
+                margin-bottom: 0;
+
+                .category-list {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    flex-wrap: wrap;
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    padding: 30px;
+                    width: 100%;
+                }
+            }
+
+            .category-box {
+                margin-right: 15px;
+                margin-bottom: 15px;
+                padding: 0 12px;
+            }
+
+            .category-box a {
+                color: white;
+                font-size: 11px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                text-decoration: none;
+            }
+
+            .post-thumbnail-image {
+                width: 100%;
+                height: 350px;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .entry-title {
+                margin-bottom: 20px;
+
+                &.font-size-30 {
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+                &.font-size-32 {
+                    font-size: 32px;
+                    line-height: 38px;
+                }
+                &.font-size-34 {
+                    font-size: 34px;
+                    line-height: 40px;
+                }
+                &.font-size-36 {
+                    font-size: 36px;
+                    line-height: 42px;
+                }
+                &.font-size-38 {
+                    font-size: 38px;
+                    line-height: 44px;
+                }
+                &.font-size-40 {
+                    font-size: 40px;
+                    line-height: 46px;
+                }
+                &.font-size-42 {
+                    font-size: 42px;
+                    line-height: 48px;
+                }
+                &.font-size-44 {
+                    font-size: 44px;
+                    line-height: 50px;
+                }
+            }
+
+            .entry-title a {
+                color: black;
+                text-decoration: none;
+            }
+
+            .entry-title a:hover {
+                color: #555555;
+            }
+
+            .posts-excerpt {
+                color: #777777;
+                
+                p {
+                    font-style: normal;
+                }
+
+                &.font-size-14 p {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                &.font-size-16 p {
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+                &.font-size-18 p {
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+                &.font-size-20 p {
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+                &.font-size-22 p {
+                    font-size: 22px;
+                    line-height: 28px;
+                }
+
+            }
+
+            .entry-meta {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                margin-bottom: 15px;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: #999999;
+            }
+
+            .entry-meta a {
+                color: #999999;
+                text-decoration: none;
+            }
+
+            .entry-meta a:hover {
+                color: black;
+            }
+
+            .entry-meta img {
+                margin-right: 20px;
+                border-radius: 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    
+    .yasothon-gutenberg-posts {
+
+        .content-post {
+
+            &.layout.full.style-2 {
+    
+                article {
+                    margin-bottom: 30px;
+                }
+    
+                .has-post-thumbnail {
+                    height: 400px;
+    
+                    .entry-header {
+                        width: 100%;
+                        height: auto;
+                    }
+    
+                    .entry-content {
+                        margin-left: 15px;
+                        padding: 15px;
+    
+                    }
+                }
+    
+                .has-no-thumbnail {
+                    padding: 15px;
+                }
+    
+                .post-thumbnail {
+                    .category-list {
+                        padding: 15px;
+                        width: 100%;
+                    }
+                }
+    
+                .post-thumbnail-image {
+                    height: 200px;
+                }
+    
+                .entry-title {
+                    margin-bottom: 20px;
+    
+                    &.font-size-30 {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    &.font-size-32 {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    &.font-size-34 {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    &.font-size-36 {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    &.font-size-38 {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    &.font-size-40 {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    &.font-size-42 {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    &.font-size-44 {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                }
+    
+                .posts-excerpt {
+                    
+                    p {
+                        font-style: normal;
+                    }
+    
+                    &.font-size-14 p {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                    &.font-size-16 p {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                    &.font-size-18 p {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                    &.font-size-20 p {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                    &.font-size-22 p {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+    
+                }
+    
+                .entry-meta .comment-count {
+                    display: none;
+                }
+
+                .entry-meta .posted-on::after {
+                    margin-left: 0;
+                    content: "";
+                }
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (min-width: 568px) {
+
+    .yasothon-gutenberg-posts {
+
+        .content-post {
+
+            &.layout.full.style-2 {
+
+                article {
+                    margin-bottom: 30px;
+                }
+    
+                .has-post-thumbnail {
+                    height: 350px;
+    
+                    .entry-header {
+                        width: 100%;
+                        height: auto;
+                    }
+    
+                    .entry-content {
+                        margin-left: 40px;
+                        padding: 25px;
+    
+                    }
+                }
+    
+                .has-no-thumbnail {
+                    padding: 25px;
+                }
+    
+                .post-thumbnail {
+                    .category-list {
+                        padding: 25px;
+                        width: 100%;
+                    }
+                }
+    
+                .entry-title {
+    
+                    &.font-size-30 {
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+                    &.font-size-32 {
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+                    &.font-size-34 {
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+                    &.font-size-36 {
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+                    &.font-size-38 {
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+                    &.font-size-40 {
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+                    &.font-size-42 {
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+                    &.font-size-44 {
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+                }
+    
+                .entry-meta .comment-count {
+                    display: inline;
+                }
+
+                .entry-meta .posted-on::after {
+                    margin-left: 10px;
+                    content: "\b7";
+                }
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (min-width: 736px) {
+
+    .yasothon-gutenberg-posts {
+
+        .content-post {
+
+            &.layout.full.style-2 {
+
+                .post-thumbnail-image {
+                    height: 250px;
+                }
+
+                .entry-title {
+
+                    &.font-size-30 {
+                        font-size: 24px;
+                        line-height: 30px;
+                    }
+
+                    &.font-size-32 {
+                        font-size: 24px;
+                        line-height: 30px;
+                    }
+
+                    &.font-size-34 {
+                        font-size: 24px;
+                        line-height: 30px;
+                    }
+
+                    &.font-size-36 {
+                        font-size: 24px;
+                        line-height: 30px;
+                    }
+
+                    &.font-size-38 {
+                        font-size: 24px;
+                        line-height: 30px;
+                    }
+
+                    &.font-size-40 {
+                        font-size: 24px;
+                        line-height: 30px;
+                    }
+
+                    &.font-size-42 {
+                        font-size: 24px;
+                        line-height: 30px;
+                    }
+
+                    &.font-size-44 {
+                        font-size: 24px;
+                        line-height: 30px;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .yasothon-gutenberg-posts {
+
+        .content-post {
+
+            &.layout.full.style-2 {
+
+                .has-post-thumbnail {
+                    height: 400px;
+    
+                    .entry-content {
+                        margin-left: 120px;
+    
+                    }
+                }
+
+                .post-thumbnail-image {
+                    height: 340px;
+                }
+
+                .entry-title {
+    
+                    &.font-size-30 {
+                        font-size: 30px;
+                        line-height: 36px;
+                    }
+                    &.font-size-32 {
+                        font-size: 30px;
+                        line-height: 36px;
+                    }
+                    &.font-size-34 {
+                        font-size: 30px;
+                        line-height: 36px;
+                    }
+                    &.font-size-36 {
+                        font-size: 30px;
+                        line-height: 36px;
+                    }
+                    &.font-size-38 {
+                        font-size: 30px;
+                        line-height: 36px;
+                    }
+                    &.font-size-40 {
+                        font-size: 30px;
+                        line-height: 36px;
+                    }
+                    &.font-size-42 {
+                        font-size: 30px;
+                        line-height: 36px;
+                    }
+                    &.font-size-44 {
+                        font-size: 30px;
+                        line-height: 36px;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1168px) {
+    
+    .yasothon-gutenberg-posts {
+
+        .content-post {
+
+            &.layout.full.style-2 {
+    
+                article {
+                    margin-bottom: 50px;
+                }
+    
+                .has-post-thumbnail {
+                    height: 450px;
+    
+                    .entry-header {
+                        width: 90%;
+                        height: 500px;
+                    }
+    
+                    .entry-content {
+                        margin-left: 150px;
+                        padding: 30px;
+    
+                    }
+                }
+    
+                .has-no-thumbnail {
+                    padding: 40px;
+                }
+    
+                .post-thumbnail {
+                    .category-list {
+                        padding: 30px;
+                        width: 100%;
+                    }
+                }
+    
+                .post-thumbnail-image {
+                    height: 350px;
+                }
+    
+                .entry-title {
+                    margin-bottom: 20px;
+    
+                    &.font-size-30 {
+                        font-size: 30px;
+                        line-height: 36px;
+                    }
+                    &.font-size-32 {
+                        font-size: 32px;
+                        line-height: 38px;
+                    }
+                    &.font-size-34 {
+                        font-size: 34px;
+                        line-height: 40px;
+                    }
+                    &.font-size-36 {
+                        font-size: 36px;
+                        line-height: 42px;
+                    }
+                    &.font-size-38 {
+                        font-size: 38px;
+                        line-height: 44px;
+                    }
+                    &.font-size-40 {
+                        font-size: 40px;
+                        line-height: 46px;
+                    }
+                    &.font-size-42 {
+                        font-size: 42px;
+                        line-height: 48px;
+                    }
+                    &.font-size-44 {
+                        font-size: 44px;
+                        line-height: 50px;
+                    }
+                }
+    
+                .posts-excerpt {
+                    
+                    p {
+                        font-style: normal;
+                    }
+    
+                    &.font-size-14 p {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                    &.font-size-16 p {
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                    &.font-size-18 p {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    &.font-size-20 p {
+                        font-size: 20px;
+                        line-height: 26px;
+                    }
+                    &.font-size-22 p {
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+    
+                }
+    
+                .entry-meta .comment-count {
+                    display: inline;
+                }
+
+                .entry-meta .posted-on::after {
+                    margin-left: 10px;
+                    content: "\b7";
+                }
+            }
+        }
+
+    }
+
+}
